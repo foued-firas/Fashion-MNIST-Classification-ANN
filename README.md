@@ -1,20 +1,12 @@
-PROJET: Classification Fashion-MNIST par Réseau de Neurones Artificiel
+# Fashion-MNIST ANN Classifier
 
-COMPOSANTS PRINCIPAUX:
-• Architecture RNÀ:
-  - Couche Dense: 256 neurones + Activation ReLU
-  - Couche Dense: 128 neurones + Activation ReLU  
-  - Couche Dense: 10 neurones + Activation Softmax
-• Framework: TensorFlow/Keras
-• Préprocessing: StandardScaler
+## Description
+This project implements an **Artificial Neural Network (ANN)** for classifying the **Fashion-MNIST** dataset. The model is built using **TensorFlow/Keras** and consists of three dense layers with **256**, **128**, and **10** neurons, using **ReLU** and **Softmax** activation functions.
 
-CARACTÉRISTIQUES:
-√ Exploration et visualisation des données
-√ Entraînement du modèle (10 époques)
-√ Évaluation des performances (~85% précision validation)
-√ Pipeline complet de classification d'images
+The dataset is preprocessed with **StandardScaler**, and the model reaches approximately **85% accuracy** on the validation set after **10 epochs**.
 
-MÉTRIQUES:
-• Accuracy validation: ≈85%
-• Durée entraînement: 10 epochs
-• Jeu de données: Fashion-MNIST (60k images 28x28)
+The notebook includes:
+- Data exploration
+- Data visualization
+- Model training
+- Performance evaluation
